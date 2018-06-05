@@ -1,0 +1,149 @@
+body {
+	font-family: "HY-XiZYJ", "HY_XiZYJ", Arial;
+	width: 100%;
+	font-size: .24rem;
+	line-height: 1;
+}
+a,a:hover {
+	cursor: pointer;
+	color: #666;	
+}
+.cons {
+	padding: 0;
+}
+.navs {
+	text-align: center;
+	position: relative;
+	background: #fff;
+}
+.logo {
+	width: .58rem;
+	height: .9rem;
+	margin: 0 .3rem;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: contain;
+	position: absolute;
+	left: 0;
+}
+.search {
+	font-size: .24rem;
+	color: #333;
+	padding: .15rem .15rem .15rem .55rem;
+	width: 70%;
+	border-radius: 0.1rem;
+	margin: 0.16rem 16%;
+	height: 0.56rem;
+	background: #F4F4F4 url(../img/search.png) no-repeat 0.2rem center;
+	background-size: auto .26rem;
+}
+.service {
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 0.98rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+.init-box {
+	color: #666;
+	position: relative;
+	margin-left: 0.3rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.5rem;
+}
+.init-box .tit-icon {
+	position: absolute;
+	left: -0.07rem;
+	display: inline-block;
+	width: 0.22rem;
+	height: 0.3rem;
+	background: url() no-repeat;
+	background-size: contain;
+}
+.init-box .title {
+	font-size: 0.3rem;
+	font-weight: normal;
+	padding-left: 0.3rem;
+	margin-bottom: 0.05rem;
+}
+.init-box .list li {
+	float: left;
+	padding: .08rem .22rem;
+	margin-top: 0.25rem;
+	background-color: #F4F4F4;
+	margin-left: 0.2rem;
+	border-radius: 0.4rem;
+}
+.init-box .list .show-log-item a {
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+}
+.init-box .list a.red {
+	color: #f36;
+}
+.class-list {
+	display: none;
+	width: 100%;
+	background: #F2F5F8;
+}
+.prompt-list {
+	margin-left: 0.3rem;
+}
+.prompt-list .list {
+	line-height: 0.82rem;
+	overflow: hidden;
+	height: 0.8rem;
+	border-bottom: 1px solid #e6e5e6;
+}
+.prompt-list .list .left {
+	color: #333;
+	float: left;
+	font-size: 0.28rem;
+}
+.prompt-list .list .right {
+	float: right;
+	padding-right: 0.3rem;
+}
+.prompt-list .list .tags {
+	font-size: 0.24rem;
+	background-color: #F8F8F8;
+	border-radius: 0.4rem;
+	padding: .08rem .2rem;
+	margin-left: 0.1rem;
+}
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	html {
+		font-size: 42.6667px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	html {
+		font-size: 48px;
+	}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	html {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	html {
+		font-size: 55.2px;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+	html {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	html {
+		font-size: 72px;
+	}
+}

@@ -1,0 +1,223 @@
+body {
+	font-family: "HY-XiZYJ","HY_XiZYJ",Arial;
+}
+a,a:hover {
+	cursor: pointer;
+	color: #666;	
+}
+.cons {
+	padding: 0;
+}
+.navs {
+	text-align: center;
+	position: relative;
+	background: #fff;
+}
+.logo {
+	width: .58rem;
+	height: .9rem;
+	margin: 0 .3rem;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: contain;
+	position: absolute;
+	left: 0;
+}
+.search {
+	font-size: .24rem;
+	color: #333;
+	padding: .15rem .15rem .15rem .55rem;
+	width: 70%;
+	border-radius: 0.1rem;
+	margin: 0.16rem 16%;
+	height: 0.56rem;
+	background: #F4F4F4 url(../img/search.png) no-repeat 0.2rem center;
+	background-size: auto .26rem;
+}
+.service {
+	position: absolute;
+	right: 0;
+	background: url(../img/service.png) no-repeat center center;
+	background-size: .34rem .3rem;
+	margin-top: 0.15rem;
+	width: 0.98rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+}
+.cons .shops {
+	text-align: center;
+	background-color: #fff;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	overflow: hidden;
+	font-size: 0.3rem;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+}
+.cons .shops>div {
+	padding: 0;
+}
+.cons .nav-fixed {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+.shops a.active {
+	color: #FF3366;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	padding: 0 0.06rem 0.1rem 0.06rem;
+}
+.ad-box1 {
+	margin: 0;
+}
+.ad-box2,
+.ad-box3 {
+	display: none;
+}
+.ad-box ul>li {
+	width: 50%;
+	padding: 0;
+}
+.img-box {
+	height: 100%;
+	overflow: hidden;
+}
+.img-box img {
+	height: 5.5rem;
+	width: 100%;
+}
+.ad-box ul>li {
+	padding: 0 1% 4% 1%;
+}
+.ad-box .ad-box1>li p.title {
+	margin-top: 0.18rem;
+	font-size: 0.22rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	overflow: hidden;
+	height: .34rem;
+	color: #666;
+}
+.goods-info {
+	text-align: center;
+	font-size: 0;
+}
+.goods-info .price {
+	color: #FF3366;
+	font-size: 0.26rem;
+	margin-right: 0.2rem;
+}
+.goods-info .origin {
+	color: #999;
+    text-align: center;
+    font-size: 0.22rem;
+    line-height: 1;
+}
+.goods-info .sale_num {
+	margin-top: .15rem;
+	color: #999;
+	text-align: center;
+	font-size: 0.22rem;
+	line-height: 1;
+}
+.footer {
+	height: 1rem;
+	width: 100%;
+	position: relative;
+}
+.nav-bottom {
+	background-color: #fafafa;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 250;
+	bottom: 0;
+	height: 1rem;
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5;
+}
+.nav-bottom>a {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 0.1rem;
+	color: #666;
+}
+.icon-1 {
+	background: url(../img/ss28.png) no-repeat center;
+}
+.icon-2 {
+	background: url(../img/icon2.png) no-repeat center;
+}
+.icon-3 {
+	background: url(../img/icon3.png) no-repeat center;
+}
+.icon-4 {
+	background: url(../img/icon4.png) no-repeat center;
+}
+.nav-bottom .bottom-icon {
+	display: block;
+	margin: 0.08rem auto;
+	margin-top: 0.128rem;
+	width: 0.38rem;
+	height: 0.38rem;
+	background-size: contain;
+}
+.nav-bottom .bottom-text {
+	display: block;
+	color: #999;
+	font-size: 0.25rem;
+}
+.fix-btn {
+	position: fixed;
+	z-index: 1000;
+	right: .2rem;
+	bottom: 1.5rem;
+}
+.fix-btn .gotop {
+	background: url(../img/rx43.png) no-repeat;
+	background-size: 100% 100%;
+}
+.fix-btn .gotop {
+	width: .7rem;
+	height: .7rem;
+	display: none;
+}
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	html {
+		font-size: 42.6667px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	html {
+		font-size: 48px;
+	}
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	html {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	html {
+		font-size: 55.2px;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+	html {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 72px;
+	}
+}

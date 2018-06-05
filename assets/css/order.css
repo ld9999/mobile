@@ -1,0 +1,279 @@
+body {
+	line-height: 1;
+	font-family: "HY-XiZYJ", "HY_XiZYJ", Arial;
+	background-color: #eee;
+	color: #666;
+	font-size: 14px;
+}
+ul,
+ol,
+p {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+	width: 100%;
+}
+a,
+a:visited {
+	color: #333;
+	font-size: .26rem;
+}
+a:hover {
+	color: #333;
+}
+.cons {
+	padding: 0;
+}
+.navs {
+	position: relative;
+    width: 100%;
+    text-align: center;
+    height: .92rem;
+    background-color: #fff;
+    overflow: hidden;
+    color: #333;
+    line-height: .92rem;
+    border-bottom: 1px solid rgba(51, 51, 51, .15);
+}
+.navs .return {
+	position: absolute;
+	left: 0;
+	cursor: pointer;
+    width: 0.8rem;
+    padding-left: .3rem;
+}
+.navs .return i {
+	vertical-align: middle;
+	width: .22rem;
+    height: .22rem;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    transform: rotate(-135deg);
+}
+.centers {
+	height: .92rem;
+}
+.centers a {
+	font-size: .35rem;
+}
+.exit {
+	position: absolute;
+	right: 0;
+    z-index: 5;
+    font-size: .26rem;
+    padding-right: .3rem;
+    height: .92rem;
+}
+.address-box,
+.title-box {
+	margin-bottom: .18rem;
+	overflow: hidden;
+	padding: .3rem .2rem;
+}
+.address-box {
+	position: relative;
+	padding: 0;
+	margin-top: .18rem;
+}
+.address-box,
+.coupon,
+.goods-list {
+	background-color: #fff;
+	color: #333;
+}
+.address-box {
+	font-size: .3rem;
+}
+.address-box b {
+	display: block;
+	padding-top: .06rem;
+	background: url(../img/z6.png) -.4rem 0 repeat-x;
+}
+.address-box .name {
+	font-size: .3rem;
+}
+.address-box .address,
+.address-box .name {
+	padding-left: .6rem;
+	padding-top: .3rem;
+}
+.address-box .name i {
+    margin-left: .6rem;
+}
+.address-box .address {
+	background: url(../img/z3.png) .2rem .07rem no-repeat;
+	background-size: .28rem;
+	font-size: .26rem;
+	color: #666;
+	padding-bottom: .28rem;
+	line-height: 1.2;
+	padding-right: .8rem;
+}
+.arrow {
+	position: absolute;
+	width: .4rem;
+	height: .4rem;
+	right: .2rem;
+	top: 50%;
+	margin-top: -.15rem;
+	background: url(../img/z3.png) 0 -3.3rem no-repeat;
+	background-size: 100%;
+}
+.goods-list {
+	margin-bottom: .18rem;
+	overflow: hidden;
+	font-size: .3rem;
+	padding: 0 .3rem;
+}
+.address-box,
+.coupon,
+.goods-list {
+	background-color: #fff;
+	color: #333;
+}
+.goods-list li {
+	position: relative;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+	padding-bottom: .3rem;
+	padding-top: .3rem;
+	font-size: .26rem;
+}
+.goods-list .shop {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: .62rem;
+}
+.goods-list .pic {
+	width: .6rem;
+	height: .6rem;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .16rem;
+}
+.goods-list .im {
+	border: 1px solid #f69;
+	color: #f69;
+	-webkit-border-radius: .08rem;
+	border-radius: .08rem;
+	font-size: .24rem;
+	width: 1.46rem;
+	height: .46rem;
+	line-height: .46rem;
+	text-align: center;
+}
+.goods-list .goods-pic {
+	margin-right: .3rem;
+	width: 1.2rem;
+	height: 1.8rem;
+	overflow: hidden;
+}
+.goods-list .detail .title {
+	font-size: .32rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 400;
+	margin-bottom: .18rem;
+}
+.goods-list .detail .size {
+	color: #999;
+	font-size: .22rem;
+}
+.goods-list .detail p {
+	margin-bottom: .2rem;
+	font-size: .3rem;
+}
+.goods-list .detail .size span {
+	margin-right: .2rem;
+}
+.goods-list .detail p:last-of-type {
+    margin-bottom: 0;
+}
+.goods-list .detail .price del {
+	color: #999;
+	font-size: .2rem;
+	margin-left: .2rem;
+}
+.goods-list .msg {
+	width: 100%;
+	background-color: #f5f5f5;
+	font-size: .25rem;
+	padding: .25rem .15rem;
+}
+.btn-box a,
+.goods-list .msg {
+	-webkit-border-radius: .08rem;
+	border-radius: .08rem;
+}
+.tips {
+	padding: 0;
+	margin-bottom: 0;
+	background-color: #fff;
+	color: #333;
+}
+.btn-box {
+	border-top: 1px solid #eee;
+	margin-bottom: 0;
+	text-align: right;
+	color: #666;
+	padding: .4rem .3rem;
+}
+.btn-box,
+.popup {
+	background-color: #fff;
+}
+.btn-box,
+.coupon,
+.popup,
+.tips {
+	margin-bottom: .18rem;
+	overflow: hidden;
+	font-size: .3rem;
+}
+.btn-box span,
+.goods-list .f-red {
+	color: #f69;
+}
+.btn-box a {
+	padding: .15rem .25rem;
+	background-color: #f69;
+	color: #fff;
+	font-size: .35rem;
+	margin-left: .5rem;
+}
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	html {
+		font-size: 42.6667px;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	html {
+		font-size: 48px;
+	}
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	html {
+		font-size: 50px;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	html {
+		font-size: 55.2px;
+	}
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+	html {
+		font-size: 60px;
+	}
+}
+@media only screen and (min-width: 641px) {
+	html {
+		font-size: 72px;
+	}
+}

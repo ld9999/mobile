@@ -1,0 +1,118 @@
+body {
+	width: 100%;
+	background-color: #f4f4f4;
+	font-size: .24rem;
+	color: #666;
+	line-height: 1;
+	font-family: "HY-XiZYJ","HY_XiZYJ",Arial;
+}
+a,a:hover {
+	color: #666;
+}
+.cons {
+	padding: 0;
+}
+.navs {
+	text-align: center;
+	height: .92rem;
+	line-height: 0.92rem;
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	border-bottom: 1px solid rgba(51, 51, 51, .15);
+}
+.navs .return {
+	cursor: pointer;
+	width: .8rem;
+	padding-left: .3rem;
+}
+.return img {
+	width: .2rem;
+}
+.centers {
+	text-align: center;
+}
+.centers a {
+	font-size: .35rem;
+}
+.exit {
+	font-size: .35rem;
+	padding-right: .3rem;
+	height: .88rem;
+}
+.none_info {
+	text-align: center;
+	padding-top: 1rem;
+}
+.none_info p {
+	font-size: .3rem;
+	line-height: .3rem;
+}
+.none_info .btn {
+	font-size: .3rem;
+	display: block;
+	width: 1.52rem;
+	padding: .18rem 0;
+	margin: .4rem auto;
+	-webkit-border-radius: .03rem;
+	border-radius: .03rem;
+	background-color: #f66;
+	color: #fff;
+}
+.nav-bottom {
+	background-color: #fafafa;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 250;
+	bottom: 0;
+	height: 0.9rem;
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5;
+}
+.nav-bottom>a {
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 0.12rem;
+	color: #666;
+}
+.icon-1 {
+	background: url(../img/ic1.png) no-repeat;
+}
+.icon-2 {
+	background: url(../img/ic2.png) no-repeat;
+}
+.icon-3 {
+	background: url(../img/ic3.png) no-repeat;
+}
+.icon-4 {
+	background: url(../img/ic4.png) no-repeat;
+}
+.nav-bottom .bottom-icon {
+	display: block;
+	margin: 0.1rem auto;
+	width: 0.34rem;
+	height: 0.34rem;
+	background-size: contain;
+}
+.nav-bottom .bottom-text {
+	display: block;
+	color: rgb(102, 102, 102);
+	font-size: 0.22rem;
+	line-height: .2rem;
+}
+.nav-bottom .bottom-text.text-one {
+	color: #ff3366;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	html {
+    	font-size: 56.25px;
+	}
+}
+@media only screen and (min-width: 641px) {
+	html {
+    	font-size: 72px;
+	}
+}

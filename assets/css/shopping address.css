@@ -1,0 +1,289 @@
+body {
+	background: #f4f4f4;
+	line-height: 1;
+	font-family: "HY-XiZYJ", "HY_XiZYJ", Arial;
+	color: #666;
+	font-size: 14px;
+}
+@font-face {
+	font-family: "m-icon";
+	src: url("../../font/micon.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+a,a:hover {
+	font-family: "m-icon";
+	color: #666;
+}
+ul,
+ol,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+	margin: 0;
+}
+label {
+	margin: 0;
+	font-weight: normal;
+}
+.cons {
+	padding: 0;
+}
+.navs {
+	position: relative;
+    height: .92rem;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    color: #333;
+    line-height: .92rem;
+    border-bottom: 1px solid rgba(51, 51, 51, .15);
+}
+.navs .back-icon {
+	position: absolute;
+	left: 0;
+	z-index: 5;
+	vertical-align: middle;
+	width: .8rem;
+	height: .92rem;
+	padding-left: .3rem;
+}
+.navs .return {
+	width: .22rem;
+	display: inline-block;
+}
+.navs .new-user {
+	position: absolute;
+	width: 100%;
+}
+.navs .title {
+	z-index: 1;
+	height: .92rem;
+}
+.navs .title a {
+	font-size: .34rem;
+}
+.novel {
+	position: absolute;
+	right: 0;
+	height: .92rem;
+}
+.novel>a.adds,.novel>a.saves {
+    z-index: 5;
+    font-size: .28rem;
+    padding-right: .3rem;
+    color: #666;
+}
+.novel>a.saves {
+	color: #ff7a9a;
+}
+.bg-top {
+	color: #ff7a9a;
+	margin: .12rem 0;
+	font-size: .24rem;	
+}
+.addrShow {
+	margin-top: .16rem;
+}
+.addrShow .unit {
+    background: #fff;
+}
+.addrShow .unit:first-child {
+	margin-bottom: .16rem;
+}
+.addrShow .unit:first-child .inner, .addrShow .unit:last-child .inner {
+    border-bottom: none;
+}
+.addrShow .inner {
+	padding: .3rem 0;
+	margin: 0 .3rem;
+	border-bottom: 1px solid rgba(51, 51, 100, .15);
+	font-size: 0;
+}
+.addrShow .choose {
+	background: url(../img/checked.png) no-repeat center;
+	background-size: contain;
+}
+.addrShow .choose_btn {
+	width: .42rem;
+	height: .42rem;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+}
+.addrShow .inner_msg {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 .2rem;
+	width: 76%;
+	border-right: 1px solid #e6e6e6;
+}
+.addrShow p {
+    font-size: 0;
+}
+.addrShow .nick_name {
+	font-size: .28rem;
+	color: #000;
+}
+.addrShow .adrl_phone {
+	font-size: .24rem;
+	color: #000;
+	margin-left: .28rem;
+}
+.addrShow .default_note {
+	background: #ffab33;
+	font-size: .22rem;
+	margin-left: .46rem;
+	color: #fff;
+	padding: .02rem;
+	border-radius: .04rem;
+	display: none;
+}
+.addrShow .add_detail {
+	line-height: .26rem;
+	font-size: .24rem;
+	color: #999;
+	padding-top: .2rem;
+}
+.addrShow .edit_btn {
+	width: .3rem;
+	height: .3rem;
+	display: inline-block;
+	background: url(../img/redact.png) no-repeat center;
+	vertical-align: middle;
+	background-size: contain;
+}
+.mssg {
+	background: #fff;
+}
+.mssg .set_wrap,.mssg label {
+	display: block;
+	border-bottom: 1px solid #ccc;
+	line-height: .8rem;
+	height: .8rem;
+	vertical-align: middle;
+	font-size: 0;
+	margin-left: .28rem;
+}
+.mssg .select_box {
+	position: relative;
+}
+.mssg input[type=tel],
+.mssg input[type=text],
+.mssg label select{
+	font-size: .26rem;
+	color: #000;
+	width: 95%;
+	outline: 0;
+	height: .5rem;
+	line-height: .5rem;
+	border: 0;
+	text-indent: 0;
+	padding: 0;
+	text-align: left;
+}
+.select_box select {
+	position: absolute;
+	top: 50%;
+	margin-top: -.25rem;
+	left: 0;
+}
+.mssg select {
+	background-color: transparent;
+	text-indent: 1px;
+	text-overflow: '';
+	-webkit-appearance: none;
+	appearance: none;
+}
+input,
+select {
+	vertical-align: middle;
+}
+.notice {
+	color: #bbb;
+	height: .5rem;
+	line-height: .5rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -.25rem;
+	left: 0;
+}
+.mssg .set_wrap span,
+.mssg label span {
+	font-size: .26rem;
+	color: #666;
+}
+.mssg .select_btn {
+	float: right;
+	margin-right: .3rem;
+	color: #ff7a9a;
+	font-size: .24rem;
+}
+.mssg .select_btn:after {
+	display: inline-block;
+	vertical-align: middle;
+	content: "";
+	color: green;
+	width: .13rem;
+	height: .26rem;
+	margin-left: .22rem;
+	margin-top: -.04rem;
+	background: url(../img/qj.png) no-repeat center;
+	background-size: contain;
+}
+.mssg .set_wrap {
+	margin-top: .12rem;
+	border-bottom: none;
+}
+.switch_check {
+	background: #86e653;
+}
+.switch_uncheck {
+	background: #dedad9;
+}
+.switch_btn {
+	display: block;
+	position: relative;
+	width: .88rem;
+	height: .44rem;
+	border-radius: .22rem;
+	float: right;
+	margin-top: .18rem;
+	margin-right: .3rem;
+}
+.switch_uncheck .inner_circle {
+	position: absolute;
+	left: .02rem;
+	top: 0;
+}
+.switch_check .inner_circle {
+	position: absolute;
+	right: .02rem;
+	top: 0;
+}
+.switch_btn .inner_circle {
+	width: .44rem;
+	height: .44rem;
+	background: #fff;
+	display: inline-block;
+	border-radius: .22rem;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	html {
+		font-size: 56.25px;
+	}
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	html {
+		font-size: 72px;
+	}
+}
+@media only screen and (min-width: 769px) {
+	html {
+		font-size: 120px;
+	}
+}
